@@ -44,3 +44,17 @@ This project is primarily developed with **Flutter** and the **Dart** language. 
     ```bash
     flutter run
     ```
+## Project structure
+
+```bash
+expense_tracker/
+├── android/                # Android build files
+├── ios/                    # iOS build files
+├── lib/                    # Application's Dart source code
+│   ├── main.dart
+│   ├── expenses.dart
+│   └── models/
+│       └── expense.dart
+├── pubspec.yaml            # Project dependencies and metadata
+└── ... (other platform folders: linux, macos, web, windows)
+```
